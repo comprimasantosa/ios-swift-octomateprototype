@@ -1,0 +1,651 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D8FFBC9265527C800DC955F /* OctomatePrototypeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8FFBC8265527C800DC955F /* OctomatePrototypeApp.swift */; };
+		1D8FFBCB265527C800DC955F /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8FFBCA265527C800DC955F /* ProfileView.swift */; };
+		1D8FFBCD265527C900DC955F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D8FFBCC265527C900DC955F /* Assets.xcassets */; };
+		1D8FFBD0265527C900DC955F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D8FFBCF265527C900DC955F /* Preview Assets.xcassets */; };
+		1D8FFBF0265533EE00DC955F /* NavigationBarColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8FFBEF265533EE00DC955F /* NavigationBarColor.swift */; };
+		1D8FFBF3265534AB00DC955F /* View+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8FFBF2265534AB00DC955F /* View+Ext.swift */; };
+		1D8FFBF62655360400DC955F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8FFBF52655360400DC955F /* Constants.swift */; };
+		1D8FFBFC265539BD00DC955F /* NunitoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1D8FFBFA2655372C00DC955F /* NunitoSans-Bold.ttf */; };
+		1D8FFBFE265539C000DC955F /* NunitoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1D8FFBF92655372C00DC955F /* NunitoSans-Regular.ttf */; };
+		1D8FFC022655453000DC955F /* SectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8FFC012655453000DC955F /* SectionHeaderView.swift */; };
+		1D8FFC052655460C00DC955F /* AnnouncementCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8FFC042655460C00DC955F /* AnnouncementCardView.swift */; };
+		1D8FFC0926554B7800DC955F /* ReminderCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8FFC0826554B7800DC955F /* ReminderCardView.swift */; };
+		1D8FFC0C26554D1C00DC955F /* TimeInSelfieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8FFC0B26554D1C00DC955F /* TimeInSelfieView.swift */; };
+		1D8FFC1D26561E3500DC955F /* TimeInLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8FFC1C26561E3500DC955F /* TimeInLocationView.swift */; };
+		1D8FFC2326562A5900DC955F /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8FFC2226562A5900DC955F /* MapView.swift */; };
+		1D8FFC2D26562F4400DC955F /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8FFC2C26562F4400DC955F /* LocationService.swift */; };
+		1D8FFC342656573500DC955F /* NavDrawerContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8FFC332656573500DC955F /* NavDrawerContentView.swift */; };
+		1D8FFC382656578200DC955F /* NavDrawerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8FFC372656578200DC955F /* NavDrawerView.swift */; };
+		1D8FFC3C265683F700DC955F /* NavDrawerMenuItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8FFC3B265683F700DC955F /* NavDrawerMenuItemView.swift */; };
+		1D8FFC3F2657469B00DC955F /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8FFC3E2657469B00DC955F /* Styles.swift */; };
+		1D8FFC4326574B4500DC955F /* Announcement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8FFC4226574B4500DC955F /* Announcement.swift */; };
+		1D8FFC4626574B8B00DC955F /* DummyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8FFC4526574B8B00DC955F /* DummyData.swift */; };
+		1D8FFC492657501D00DC955F /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8FFC482657501D00DC955F /* Reminder.swift */; };
+		1D8FFC4C2657522D00DC955F /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8FFC4B2657522D00DC955F /* ProfileHeaderView.swift */; };
+		1D8FFC502657656200DC955F /* DialogTimeInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8FFC4F2657656200DC955F /* DialogTimeInView.swift */; };
+		1D8FFC53265783D500DC955F /* TimesheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8FFC52265783D500DC955F /* TimesheetView.swift */; };
+		1D8FFC56265787EC00DC955F /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8FFC55265787EC00DC955F /* LoginView.swift */; };
+		1D8FFC592657933B00DC955F /* Octomate-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1D8FFC582657933B00DC955F /* Octomate-Info.plist */; };
+		1D8FFC5C2657938800DC955F /* OctoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8FFC5B2657938800DC955F /* OctoService.swift */; };
+		1D8FFC632657949E00DC955F /* OctoDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8FFC622657949E00DC955F /* OctoDataSource.swift */; };
+		1D8FFC662657950A00DC955F /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8FFC652657950A00DC955F /* LoginResponse.swift */; };
+		1D8FFC692657980400DC955F /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8FFC682657980400DC955F /* Login.swift */; };
+		1D8FFC6D2657985200DC955F /* OctoRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8FFC6C2657985200DC955F /* OctoRepository.swift */; };
+		1D8FFC70265798F300DC955F /* Mapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8FFC6F265798F300DC955F /* Mapper.swift */; };
+		1D8FFC73265799E300DC955F /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8FFC72265799E300DC955F /* LoginViewModel.swift */; };
+		1D8FFC812657B5DE00DC955F /* CheckboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8FFC802657B5DE00DC955F /* CheckboxView.swift */; };
+		1D8FFC842657C11700DC955F /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8FFC832657C11700DC955F /* TimerView.swift */; };
+		1D8FFC872657D8A200DC955F /* EventCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8FFC862657D8A200DC955F /* EventCardView.swift */; };
+		1D8FFC8A2657D8BB00DC955F /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8FFC892657D8BB00DC955F /* Event.swift */; };
+		1D8FFC8D2657E2B500DC955F /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8FFC8C2657E2B500DC955F /* CalendarView.swift */; };
+		99E0E97DB5B3220F7EBBF4FC /* Pods_Octomate_Prototype.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D354D9C35EC04D7E6C2EB6E /* Pods_Octomate_Prototype.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		155B35829F2E0BEDF43E221A /* Pods-Octomate Prototype.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Octomate Prototype.release.xcconfig"; path = "Target Support Files/Pods-Octomate Prototype/Pods-Octomate Prototype.release.xcconfig"; sourceTree = "<group>"; };
+		1D8FFBC5265527C800DC955F /* Octomate Prototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Octomate Prototype.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D8FFBC8265527C800DC955F /* OctomatePrototypeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OctomatePrototypeApp.swift; sourceTree = "<group>"; };
+		1D8FFBCA265527C800DC955F /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		1D8FFBCC265527C900DC955F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1D8FFBCF265527C900DC955F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1D8FFBD1265527C900DC955F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D8FFBEF265533EE00DC955F /* NavigationBarColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarColor.swift; sourceTree = "<group>"; };
+		1D8FFBF2265534AB00DC955F /* View+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Ext.swift"; sourceTree = "<group>"; };
+		1D8FFBF52655360400DC955F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1D8FFBF92655372C00DC955F /* NunitoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-Regular.ttf"; sourceTree = "<group>"; };
+		1D8FFBFA2655372C00DC955F /* NunitoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-Bold.ttf"; sourceTree = "<group>"; };
+		1D8FFC012655453000DC955F /* SectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeaderView.swift; sourceTree = "<group>"; };
+		1D8FFC042655460C00DC955F /* AnnouncementCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnouncementCardView.swift; sourceTree = "<group>"; };
+		1D8FFC0826554B7800DC955F /* ReminderCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderCardView.swift; sourceTree = "<group>"; };
+		1D8FFC0B26554D1C00DC955F /* TimeInSelfieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeInSelfieView.swift; sourceTree = "<group>"; };
+		1D8FFC1C26561E3500DC955F /* TimeInLocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeInLocationView.swift; sourceTree = "<group>"; };
+		1D8FFC2226562A5900DC955F /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		1D8FFC2C26562F4400DC955F /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		1D8FFC332656573500DC955F /* NavDrawerContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavDrawerContentView.swift; sourceTree = "<group>"; };
+		1D8FFC372656578200DC955F /* NavDrawerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavDrawerView.swift; sourceTree = "<group>"; };
+		1D8FFC3B265683F700DC955F /* NavDrawerMenuItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavDrawerMenuItemView.swift; sourceTree = "<group>"; };
+		1D8FFC3E2657469B00DC955F /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
+		1D8FFC4226574B4500DC955F /* Announcement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Announcement.swift; sourceTree = "<group>"; };
+		1D8FFC4526574B8B00DC955F /* DummyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyData.swift; sourceTree = "<group>"; };
+		1D8FFC482657501D00DC955F /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
+		1D8FFC4B2657522D00DC955F /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
+		1D8FFC4F2657656200DC955F /* DialogTimeInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialogTimeInView.swift; sourceTree = "<group>"; };
+		1D8FFC52265783D500DC955F /* TimesheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimesheetView.swift; sourceTree = "<group>"; };
+		1D8FFC55265787EC00DC955F /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		1D8FFC582657933B00DC955F /* Octomate-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Octomate-Info.plist"; sourceTree = "<group>"; };
+		1D8FFC5B2657938800DC955F /* OctoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OctoService.swift; sourceTree = "<group>"; };
+		1D8FFC622657949E00DC955F /* OctoDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OctoDataSource.swift; sourceTree = "<group>"; };
+		1D8FFC652657950A00DC955F /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
+		1D8FFC682657980400DC955F /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		1D8FFC6C2657985200DC955F /* OctoRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OctoRepository.swift; sourceTree = "<group>"; };
+		1D8FFC6F265798F300DC955F /* Mapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mapper.swift; sourceTree = "<group>"; };
+		1D8FFC72265799E300DC955F /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		1D8FFC802657B5DE00DC955F /* CheckboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxView.swift; sourceTree = "<group>"; };
+		1D8FFC832657C11700DC955F /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		1D8FFC862657D8A200DC955F /* EventCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCardView.swift; sourceTree = "<group>"; };
+		1D8FFC892657D8BB00DC955F /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		1D8FFC8C2657E2B500DC955F /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		3D354D9C35EC04D7E6C2EB6E /* Pods_Octomate_Prototype.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Octomate_Prototype.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		605614EB6D2C85F773A069A7 /* Pods-Octomate Prototype.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Octomate Prototype.debug.xcconfig"; path = "Target Support Files/Pods-Octomate Prototype/Pods-Octomate Prototype.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D8FFBC2265527C800DC955F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99E0E97DB5B3220F7EBBF4FC /* Pods_Octomate_Prototype.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D8FFBBC265527C800DC955F = {
+			isa = PBXGroup;
+			children = (
+				1D8FFBC7265527C800DC955F /* Octomate Prototype */,
+				1D8FFBC6265527C800DC955F /* Products */,
+				C46465BE415DDBBD204BBFB8 /* Pods */,
+				71FD80334D092593D212743B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1D8FFBC6265527C800DC955F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D8FFBC5265527C800DC955F /* Octomate Prototype.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D8FFBC7265527C800DC955F /* Octomate Prototype */ = {
+			isa = PBXGroup;
+			children = (
+				1D8FFC582657933B00DC955F /* Octomate-Info.plist */,
+				1D8FFBF82655371800DC955F /* Fonts */,
+				1D8FFBE726552B8C00DC955F /* Util */,
+				1D8FFBDF265528AF00DC955F /* Data */,
+				1D8FFBD92655285E00DC955F /* View */,
+				1D8FFBCC265527C900DC955F /* Assets.xcassets */,
+				1D8FFBD1265527C900DC955F /* Info.plist */,
+				1D8FFBCE265527C900DC955F /* Preview Content */,
+			);
+			path = "Octomate Prototype";
+			sourceTree = "<group>";
+		};
+		1D8FFBCE265527C900DC955F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1D8FFBCF265527C900DC955F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1D8FFBD92655285E00DC955F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1D8FFBC8265527C800DC955F /* OctomatePrototypeApp.swift */,
+				1D8FFC002655452000DC955F /* Components */,
+				1D8FFBDD2655287700DC955F /* Timesheet */,
+				1D8FFBDC2655286F00DC955F /* TimeIn */,
+				1D8FFBDB2655286A00DC955F /* Profile */,
+				1D8FFBDA2655286500DC955F /* Login */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1D8FFBDA2655286500DC955F /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				1D8FFC55265787EC00DC955F /* LoginView.swift */,
+				1D8FFC72265799E300DC955F /* LoginViewModel.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		1D8FFBDB2655286A00DC955F /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				1D8FFBCA265527C800DC955F /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		1D8FFBDC2655286F00DC955F /* TimeIn */ = {
+			isa = PBXGroup;
+			children = (
+				1D8FFC0B26554D1C00DC955F /* TimeInSelfieView.swift */,
+				1D8FFC1C26561E3500DC955F /* TimeInLocationView.swift */,
+			);
+			path = TimeIn;
+			sourceTree = "<group>";
+		};
+		1D8FFBDD2655287700DC955F /* Timesheet */ = {
+			isa = PBXGroup;
+			children = (
+				1D8FFC52265783D500DC955F /* TimesheetView.swift */,
+			);
+			path = Timesheet;
+			sourceTree = "<group>";
+		};
+		1D8FFBDF265528AF00DC955F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				1D8FFBE1265528BD00DC955F /* Service */,
+				1D8FFBE0265528B500DC955F /* Model */,
+				1D8FFC6C2657985200DC955F /* OctoRepository.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		1D8FFBE0265528B500DC955F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1D8FFC4226574B4500DC955F /* Announcement.swift */,
+				1D8FFC2C26562F4400DC955F /* LocationService.swift */,
+				1D8FFC682657980400DC955F /* Login.swift */,
+				1D8FFC652657950A00DC955F /* LoginResponse.swift */,
+				1D8FFC482657501D00DC955F /* Reminder.swift */,
+				1D8FFC892657D8BB00DC955F /* Event.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1D8FFBE1265528BD00DC955F /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				1D8FFC5B2657938800DC955F /* OctoService.swift */,
+				1D8FFC622657949E00DC955F /* OctoDataSource.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		1D8FFBE726552B8C00DC955F /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				1D8FFBF52655360400DC955F /* Constants.swift */,
+				1D8FFC4526574B8B00DC955F /* DummyData.swift */,
+				1D8FFC6F265798F300DC955F /* Mapper.swift */,
+				1D8FFBEF265533EE00DC955F /* NavigationBarColor.swift */,
+				1D8FFC3E2657469B00DC955F /* Styles.swift */,
+				1D8FFBF2265534AB00DC955F /* View+Ext.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		1D8FFBF82655371800DC955F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				1D8FFBFA2655372C00DC955F /* NunitoSans-Bold.ttf */,
+				1D8FFBF92655372C00DC955F /* NunitoSans-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		1D8FFC002655452000DC955F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				1D8FFC042655460C00DC955F /* AnnouncementCardView.swift */,
+				1D8FFC8C2657E2B500DC955F /* CalendarView.swift */,
+				1D8FFC802657B5DE00DC955F /* CheckboxView.swift */,
+				1D8FFC4F2657656200DC955F /* DialogTimeInView.swift */,
+				1D8FFC862657D8A200DC955F /* EventCardView.swift */,
+				1D8FFC2226562A5900DC955F /* MapView.swift */,
+				1D8FFC332656573500DC955F /* NavDrawerContentView.swift */,
+				1D8FFC3B265683F700DC955F /* NavDrawerMenuItemView.swift */,
+				1D8FFC372656578200DC955F /* NavDrawerView.swift */,
+				1D8FFC4B2657522D00DC955F /* ProfileHeaderView.swift */,
+				1D8FFC0826554B7800DC955F /* ReminderCardView.swift */,
+				1D8FFC012655453000DC955F /* SectionHeaderView.swift */,
+				1D8FFC832657C11700DC955F /* TimerView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		71FD80334D092593D212743B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D354D9C35EC04D7E6C2EB6E /* Pods_Octomate_Prototype.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C46465BE415DDBBD204BBFB8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				605614EB6D2C85F773A069A7 /* Pods-Octomate Prototype.debug.xcconfig */,
+				155B35829F2E0BEDF43E221A /* Pods-Octomate Prototype.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D8FFBC4265527C800DC955F /* Octomate Prototype */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D8FFBD4265527C900DC955F /* Build configuration list for PBXNativeTarget "Octomate Prototype" */;
+			buildPhases = (
+				C395DEFA0E2240E682B32328 /* [CP] Check Pods Manifest.lock */,
+				1D8FFBC1265527C800DC955F /* Sources */,
+				1D8FFBC2265527C800DC955F /* Frameworks */,
+				1D8FFBC3265527C800DC955F /* Resources */,
+				FF1E6AF2B7E5290519D38134 /* [CP] Copy Pods Resources */,
+				4BEBDC8D68828A8F91BA24D4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Octomate Prototype";
+			productName = "Ocotomate Prototype";
+			productReference = 1D8FFBC5265527C800DC955F /* Octomate Prototype.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D8FFBBD265527C800DC955F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					1D8FFBC4265527C800DC955F = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 1D8FFBC0265527C800DC955F /* Build configuration list for PBXProject "Octomate Prototype" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1D8FFBBC265527C800DC955F;
+			productRefGroup = 1D8FFBC6265527C800DC955F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D8FFBC4265527C800DC955F /* Octomate Prototype */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D8FFBC3265527C800DC955F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D8FFBFC265539BD00DC955F /* NunitoSans-Bold.ttf in Resources */,
+				1D8FFC592657933B00DC955F /* Octomate-Info.plist in Resources */,
+				1D8FFBD0265527C900DC955F /* Preview Assets.xcassets in Resources */,
+				1D8FFBCD265527C900DC955F /* Assets.xcassets in Resources */,
+				1D8FFBFE265539C000DC955F /* NunitoSans-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4BEBDC8D68828A8F91BA24D4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Octomate Prototype/Pods-Octomate Prototype-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Octomate Prototype/Pods-Octomate Prototype-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Octomate Prototype/Pods-Octomate Prototype-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C395DEFA0E2240E682B32328 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Octomate Prototype-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF1E6AF2B7E5290519D38134 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Octomate Prototype/Pods-Octomate Prototype-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Octomate Prototype/Pods-Octomate Prototype-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Octomate Prototype/Pods-Octomate Prototype-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D8FFBC1265527C800DC955F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D8FFC53265783D500DC955F /* TimesheetView.swift in Sources */,
+				1D8FFC502657656200DC955F /* DialogTimeInView.swift in Sources */,
+				1D8FFC812657B5DE00DC955F /* CheckboxView.swift in Sources */,
+				1D8FFC692657980400DC955F /* Login.swift in Sources */,
+				1D8FFC052655460C00DC955F /* AnnouncementCardView.swift in Sources */,
+				1D8FFBF62655360400DC955F /* Constants.swift in Sources */,
+				1D8FFC382656578200DC955F /* NavDrawerView.swift in Sources */,
+				1D8FFC662657950A00DC955F /* LoginResponse.swift in Sources */,
+				1D8FFC8D2657E2B500DC955F /* CalendarView.swift in Sources */,
+				1D8FFC70265798F300DC955F /* Mapper.swift in Sources */,
+				1D8FFC342656573500DC955F /* NavDrawerContentView.swift in Sources */,
+				1D8FFC3C265683F700DC955F /* NavDrawerMenuItemView.swift in Sources */,
+				1D8FFBF3265534AB00DC955F /* View+Ext.swift in Sources */,
+				1D8FFC2326562A5900DC955F /* MapView.swift in Sources */,
+				1D8FFC872657D8A200DC955F /* EventCardView.swift in Sources */,
+				1D8FFC4626574B8B00DC955F /* DummyData.swift in Sources */,
+				1D8FFC022655453000DC955F /* SectionHeaderView.swift in Sources */,
+				1D8FFC3F2657469B00DC955F /* Styles.swift in Sources */,
+				1D8FFC56265787EC00DC955F /* LoginView.swift in Sources */,
+				1D8FFC2D26562F4400DC955F /* LocationService.swift in Sources */,
+				1D8FFC4C2657522D00DC955F /* ProfileHeaderView.swift in Sources */,
+				1D8FFC73265799E300DC955F /* LoginViewModel.swift in Sources */,
+				1D8FFC0C26554D1C00DC955F /* TimeInSelfieView.swift in Sources */,
+				1D8FFC4326574B4500DC955F /* Announcement.swift in Sources */,
+				1D8FFC842657C11700DC955F /* TimerView.swift in Sources */,
+				1D8FFC492657501D00DC955F /* Reminder.swift in Sources */,
+				1D8FFC5C2657938800DC955F /* OctoService.swift in Sources */,
+				1D8FFC8A2657D8BB00DC955F /* Event.swift in Sources */,
+				1D8FFC0926554B7800DC955F /* ReminderCardView.swift in Sources */,
+				1D8FFC632657949E00DC955F /* OctoDataSource.swift in Sources */,
+				1D8FFBCB265527C800DC955F /* ProfileView.swift in Sources */,
+				1D8FFC1D26561E3500DC955F /* TimeInLocationView.swift in Sources */,
+				1D8FFBF0265533EE00DC955F /* NavigationBarColor.swift in Sources */,
+				1D8FFC6D2657985200DC955F /* OctoRepository.swift in Sources */,
+				1D8FFBC9265527C800DC955F /* OctomatePrototypeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D8FFBD2265527C900DC955F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1D8FFBD3265527C900DC955F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1D8FFBD5265527C900DC955F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 605614EB6D2C85F773A069A7 /* Pods-Octomate Prototype.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Octomate Prototype/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Octomate Prototype/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.primasantosa.ios.octomateprototype;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D8FFBD6265527C900DC955F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 155B35829F2E0BEDF43E221A /* Pods-Octomate Prototype.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Octomate Prototype/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Octomate Prototype/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.primasantosa.ios.octomateprototype;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D8FFBC0265527C800DC955F /* Build configuration list for PBXProject "Octomate Prototype" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D8FFBD2265527C900DC955F /* Debug */,
+				1D8FFBD3265527C900DC955F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D8FFBD4265527C900DC955F /* Build configuration list for PBXNativeTarget "Octomate Prototype" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D8FFBD5265527C900DC955F /* Debug */,
+				1D8FFBD6265527C900DC955F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D8FFBBD265527C800DC955F /* Project object */;
+}
