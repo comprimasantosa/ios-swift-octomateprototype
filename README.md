@@ -28,7 +28,7 @@ These instructions will get you a copy of the project up and running on your loc
 3. Execute pod install command and wait until it finishes
 4. Open the project using XCode
 5. Replace API_KEY value on Octomate-Info.plist with your own Google Maps API Key
-6. Run using an iOS Simulator or real device
+6. Run using an iOS Simulator or real device (Tested on iOS Simulator 11.4)
 ```
 
 ## Built With
