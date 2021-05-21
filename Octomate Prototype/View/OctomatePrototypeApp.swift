@@ -26,7 +26,7 @@ class AppDelegate: NSObject, UIApplicationDelegate {
       fatalError("Couldn't find file 'Octomate-Info.plist'.")
     }
     let plist = NSDictionary(contentsOfFile: filePath)
-    guard let value = plist?.object(forKey: "BASE_URL") as? String else {
+    guard let value = plist?.object(forKey: "API_KEY") as? String else {
       fatalError("Couldn't find key 'API_KEY' in 'Octomate-Info.plist'.")
     }
     return value

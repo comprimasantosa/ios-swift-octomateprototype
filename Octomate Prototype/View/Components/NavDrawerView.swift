@@ -20,7 +20,6 @@ struct NavDrawerView: View {
         Spacer()
       }
     }
-    .edgesIgnoringSafeArea(.bottom)
   }
 }
 
